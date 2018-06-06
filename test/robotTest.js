@@ -19,7 +19,7 @@ describe("robot.js", () => {
       wallE.setCoordinates(3, 0);
       expect(wallE.coordinates).to.be.an("array");
       expect(wallE.coordinates).to.deep.eq([3, 0]);
-
+      
       wallE.setCoordinates(-2, 5);
       expect(wallE.coordinates).to.be.an("array");
       expect(wallE.coordinates).to.deep.eq([-2, 5]);
